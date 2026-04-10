@@ -1,0 +1,18 @@
+{
+  "code": 200,
+  "data": {
+    "description": "",
+    "html": "<html><head><meta name=\"color-scheme\" content=\"light dark\"></head><body><pre style=\"word-wrap: break-word; white-space: pre-wrap;\">\"\"\"FLUX.MD Parser — converts FLUX Markdown into a typed AST.\"\"\"\n\nfrom .parser import FluxMDParser\nfrom .nodes import (\n    SourceSpan,\n    LocatedNode,\n    FluxModule,\n    Heading,\n    Paragraph,\n    CodeBlock,\n    FluxCodeBlock,\n    DataBlock,\n    NativeBlock,\n    ListBlock,\n    ListItem,\n    AgentDirective,\n    FluxTypeError,\n)\n\n__all__ = [\n    \"FluxMDParser\",\n    \"SourceSpan\",\n    \"LocatedNode\",\n    \"FluxModule\",\n    \"Heading\",\n    \"Paragraph\",\n    \"CodeBlock\",\n    \"FluxCodeBlock\",\n    \"DataBlock\",\n    \"NativeBlock\",\n    \"ListBlock\",\n    \"ListItem\",\n    \"AgentDirective\",\n    \"FluxTypeError\",\n]\n</pre></body></html>",
+    "title": "",
+    "url": "https://raw.githubusercontent.com/SuperInstance/flux-runtime/main/src/flux/parser/__init__.py",
+    "usage": {
+      "tokens": 201
+    }
+  },
+  "meta": {
+    "usage": {
+      "tokens": 201
+    }
+  },
+  "status": 20000
+}

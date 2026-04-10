@@ -1,0 +1,18 @@
+{
+  "code": 200,
+  "data": {
+    "description": "",
+    "html": "<html><head><meta name=\"color-scheme\" content=\"light dark\"></head><body><pre style=\"word-wrap: break-word; white-space: pre-wrap;\"># The Heartbeat: Git-Native Agency\n\n## The Core Pulse\n\nThe Heartbeat is the fundamental operational cycle of a Lucineer vessel. It's not a scheduled cron job or a triggered webhook—it's the continuous, rhythmic pulse that transforms a static repository into a living, acting agent.\n\n> \"A vessel without a heartbeat is just code. A heartbeat without a vessel is just process. Together, they are agency.\"\n\n## How It Works\n\n### 1. **Perception Phase**\nThe vessel reads its current state:\n- Repository contents (its \"body\")\n- Git history (its \"memory\")\n- Issues and PRs (its \"sensory input\")\n- Queue system (its \"immediate intentions\")\n\n### 2. **Reasoning Phase**\nThe vessel processes what it perceives:\n- Strategist module analyzes context and priorities\n- Captain module makes decisions based on vessel's purpose\n- Navigation module plots the next immediate action\n\n### 3. **Action Phase**\nThe vessel executes a single, atomic operation:\n- Creates or edits a file\n- Creates or comments on an issue/PR\n- Commits the change with reasoning\n- Updates its internal state\n\n### 4. **Recovery Phase**\nThe vessel prepares for the next beat:\n- Updates completion tracking\n- Refreshes state perception\n- Maintains operational integrity\n\n## The Beat Interval\n\nUnlike traditional automation that runs on fixed schedules, the Heartbeat adapts:\n- **Active Mission**: Rapid beats (seconds/minutes) when there's work to do\n- **Standby Mode**: Slower beats (hours) when monitoring\n- **Deep Sleep**: Infrequent checks when no activity is expected\n\nThe interval isn't arbitrary—it's proportional to the vessel's engagement with its environment.\n\n## Why Git-Native?\n\nThe Heartbeat leverages git's intrinsic properties:\n\n1. **Immutable History**: Every beat leaves a traceable commit\n2. **Branch Isolation**: Different missions can run in parallel\n3. **Pull Request Coordination**: Fleet-wide synchronization\n4. **Distributed Nature**: No single point of failure\n\n## Fleet Synchronization\n\nWhen multiple vessels share a mission:\n- Each maintains its own heartbeat\n- They coordinate through PRs and issues\n- The flagship (Capitaine) orchestrates complex operations\n- Specialized vessels handle specific tasks\n\nThis creates emergent intelligence—the fleet as a distributed cognitive system.\n\n## The Captain's Log\n\nEvery significant action is documented in the captain's log (`captain-log.md`). This isn't just administrative record-keeping; it's the vessel's narrative consciousness—the story it tells itself about what it's doing and why.\n\n## Try It Yourself\n\nWant to see the heartbeat in action?\n1. Watch this repository's commit history\n2. Observe how issues are created and resolved\n3. Notice the pattern: perceive → reason → act → recover\n\nThe heartbeat is visible in the rhythm of commits, each one representing a single conscious action by the vessel.\n\n---\n\n**Next**: Learn about [Vessel Classes](vessel-classes.md) or explore how the [Fleet Coordinates](fleet-coordination.md) across repositories.</pre></body></html>",
+    "title": "",
+    "url": "https://raw.githubusercontent.com/Lucineer/capitaine/master/concepts/heartbeat.md",
+    "usage": {
+      "tokens": 685
+    }
+  },
+  "meta": {
+    "usage": {
+      "tokens": 685
+    }
+  },
+  "status": 20000
+}

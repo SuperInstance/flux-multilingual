@@ -1,0 +1,18 @@
+{
+  "code": 200,
+  "data": {
+    "description": "",
+    "html": "<html><head><meta name=\"color-scheme\" content=\"light dark\"></head><body><pre style=\"word-wrap: break-word; white-space: pre-wrap;\">\"\"\"FLUX — Fluid Language Universal eXecution.\n\nA Self-Assembling, Self-Improving Runtime for Agent-First Code.\n\"\"\"\n\n__version__ = \"0.1.0\"\n__author__ = \"SuperInstance\"\n__license__ = \"MIT\"\n</pre></body></html>",
+    "title": "",
+    "url": "https://raw.githubusercontent.com/SuperInstance/flux-runtime/main/src/flux/__init__.py",
+    "usage": {
+      "tokens": 98
+    }
+  },
+  "meta": {
+    "usage": {
+      "tokens": 98
+    }
+  },
+  "status": 20000
+}

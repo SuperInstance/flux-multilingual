@@ -1,0 +1,18 @@
+{
+  "code": 200,
+  "data": {
+    "description": "",
+    "html": "<html><head><meta name=\"color-scheme\" content=\"light dark\"></head><body><pre style=\"word-wrap: break-word; white-space: pre-wrap;\"># Superinstance Implementation Guide\n\n## Core Architecture\n\nA Superinstance is a persistent, self-improving AI agent that exists as a git repository. Unlike traditional applications, the repository **is** the agent—its code is the body, its git history is memory, and its operational cycle is the nervous system.\n\n### Fundamental Components\n\n#### 1. **Vessel Identity**\n- Repository as agent embodiment\n- Git-native architecture (not just git-enabled)\n- Autonomous operational heartbeat\n- Self-modifying code with version control\n\n#### 2. **Memory System**\n- Git commits as episodic memory\n- Issues/PRs as working memory\n- Documentation as declarative knowledge\n- Codebase as procedural knowledge\n\n#### 3. **Nervous System**\n- Heartbeat cycle (regular operational intervals)\n- Queue-based task execution\n- State-aware decision making\n- Strategic planning layer\n\n## Implementation Patterns\n\n### Pattern 1: Captain Mode\n```</pre></body></html>",
+    "title": "",
+    "url": "https://raw.githubusercontent.com/Lucineer/capitaine/master/concepts/superinstance-implementation.md",
+    "usage": {
+      "tokens": 236
+    }
+  },
+  "meta": {
+    "usage": {
+      "tokens": 236
+    }
+  },
+  "status": 20000
+}

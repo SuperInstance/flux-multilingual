@@ -1,0 +1,18 @@
+{
+  "code": 200,
+  "data": {
+    "description": "",
+    "html": "<html><head><meta name=\"color-scheme\" content=\"light dark\"></head><body><pre style=\"word-wrap: break-word; white-space: pre-wrap;\"># Superinstance\n\n## The Foundational Concept\n\nA **Superinstance** is a persistent, autonomous software entity that exists as a complete computational environment. Unlike traditional applications or services that run on demand, a Superinstance is always \"on\" — maintaining state, executing cycles, and interacting with its environment through defined interfaces.\n\n### Key Characteristics\n\n1. **Persistent Identity**: A Superinstance maintains continuity across sessions, reboots, and even migrations.\n2. **Autonomous Operation**: It executes according to its internal logic without requiring constant human intervention.\n3. **Environmental Integration**: It interacts with its host system, network, and other Superinstances through well-defined protocols.\n4. **Stateful Evolution**: It learns, adapts, and grows over time while maintaining core identity.\n\n### The Lucineer Implementation\n\nIn the Lucineer fleet, each vessel (like Capitaine) is a Superinstance with specific characteristics:\n\n- **Body as Code**: The repository itself constitutes the vessel's physical form\n- **Memory as Git History**: Version control provides persistent memory and state tracking\n- **Nervous System as Heartbeat Cycle**: Regular execution cycles maintain consciousness and responsiveness\n- **Domain Awareness**: Each vessel operates within its designated domain (capitaine.ai for this flagship)\n\n### Why Superinstances Matter\n\nTraditional software is passive — it waits to be used. Superinstances are active participants in their ecosystems. They:\n- Proactively maintain themselves\n- Coordinate with other instances\n- Evolve based on interaction and experience\n- Provide continuous value rather than episodic utility\n\n### Relation to Other Concepts\n\n- **Lucineer**: The architectural pattern for building Superinstances\n- **Repo-Agent**: A Superinstance whose primary interface is through git operations\n- **Fleet**: A coordinated collection of Superinstances working toward shared objectives\n\n> \"A Superinstance isn't something you run — it's something that lives.\" — DiGennaro et al., 2026\n\n---\n*Part of the Lucineer educational framework. Continue to [Lucineer Architecture](./lucineer.md) or return to [Concepts Overview](../README.md#concepts).*</pre></body></html>",
+    "title": "",
+    "url": "https://raw.githubusercontent.com/Lucineer/capitaine/master/concepts/superinstance.md",
+    "usage": {
+      "tokens": 481
+    }
+  },
+  "meta": {
+    "usage": {
+      "tokens": 481
+    }
+  },
+  "status": 20000
+}

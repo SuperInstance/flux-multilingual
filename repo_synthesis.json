@@ -1,0 +1,18 @@
+{
+  "code": 200,
+  "data": {
+    "description": "",
+    "html": "<html><head><meta name=\"color-scheme\" content=\"light dark\"></head><body><pre style=\"word-wrap: break-word; white-space: pre-wrap;\">\"\"\"FLUX Synthesis — the top-level integration layer that wires ALL subsystems together.\n\nThis is the DJ booth: the synthesizer manages nested modules (vinyl collection),\nprofiles execution (listening to the room), selects languages (choosing instruments),\ncomposes tiles (layering samples), runs evolution (improving the set over time),\nand hot-reloads at any granularity (swapping tracks mid-set).\n\nUsage:\n    from flux.synthesis import FluxSynthesizer\n\n    synth = FluxSynthesizer(\"my_app\")\n    synth.load_module(\"audio/engine\", source, language=\"python\")\n    synth.run_workload(my_pipeline)\n    synth.evolve(generations=5)\n    report = synth.get_system_report()\n\"\"\"\n\nfrom .synthesizer import (\n    FluxSynthesizer,\n    WorkloadResult,\n)\nfrom .report import (\n    SystemReport,\n)\n\n__all__ = [\n    \"FluxSynthesizer\",\n    \"WorkloadResult\",\n    \"SystemReport\",\n]\n</pre></body></html>",
+    "title": "",
+    "url": "https://raw.githubusercontent.com/SuperInstance/flux-runtime/main/src/flux/synthesis/__init__.py",
+    "usage": {
+      "tokens": 244
+    }
+  },
+  "meta": {
+    "usage": {
+      "tokens": 244
+    }
+  },
+  "status": 20000
+}

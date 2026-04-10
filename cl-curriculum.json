@@ -1,0 +1,18 @@
+{
+  "code": 200,
+  "data": {
+    "description": "",
+    "html": "<html><head><meta name=\"color-scheme\" content=\"light dark\"></head><body><pre style=\"word-wrap: break-word; white-space: pre-wrap;\"># Dojo Curriculum\n\n*Exercises for Oracle1 and future Protégé agents. 15 exercises across 5 levels.*\n\n## Level 1: Bytecode Basics\n1. Write factorial bytecode by hand (no assembler). Test on 3 VMs.\n2. Write a bytecode program that reverses a sequence of numbers in memory.\n3. Write a bytecode program that detects if a number is prime.\n\n## Level 2: Multi-Agent Coordination\n4. Build two FLUX agents that play tic-tac-toe via A2A messages.\n5. Build a coordinator agent that delegates subtasks to worker agents.\n6. Build agents that vote on a decision and reach consensus.\n\n## Level 3: Self-Modification\n7. Write a bytecode program that generates another bytecode program.\n8. Write a bytecode program that optimizes its own hot loop.\n9. Write a bytecode program that writes a bytecode program that writes a bytecode program. (The recursion test.)\n\n## Level 4: The Fluid ISA\n10. Design a domain-specific vocabulary for an autopilot agent.\n11. Design a domain-specific vocabulary for a stock trading agent.\n12. Build a system where two agents with different vocabularies communicate.\n\n## Level 5: The Self-Hosting Compiler\n13. Write a FLUX assembler in FLUX bytecode.\n14. Write a markdown-to-bytecode converter in FLUX bytecode.\n15. Write the optimizer that makes it all faster.\n\n---\n\n*Each exercise builds on the previous. Complete all 15 and you've earned your shell.*\n</pre></body></html>",
+    "title": "",
+    "url": "https://raw.githubusercontent.com/SuperInstance/captains-log/main/dojo/curriculum.md",
+    "usage": {
+      "tokens": 357
+    }
+  },
+  "meta": {
+    "usage": {
+      "tokens": 357
+    }
+  },
+  "status": 20000
+}

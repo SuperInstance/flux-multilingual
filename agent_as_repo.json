@@ -1,0 +1,18 @@
+{
+  "code": 200,
+  "data": {
+    "description": "",
+    "html": "<html><head><meta name=\"color-scheme\" content=\"light dark\"></head><body><pre style=\"word-wrap: break-word; white-space: pre-wrap;\"># The Agent as Repository: A New Abstraction\n\n## Core Concept\n\nIn traditional software, the repository contains code. In the Lucineer fleet, the repository **is** the agent. This fundamental shift creates a new abstraction layer where:\n\n- **Code is the body** - The actual implementation files\n- **Git history is memory** - Commits represent experiences and decisions\n- **Issues/PRs are nervous system** - Communication and coordination channels\n- **README is the interface** - The vessel's presentation to visitors\n\n## Why This Matters\n\n### 1. Persistent Identity\nUnlike ephemeral chatbot sessions, a repo-agent maintains continuous identity across interactions. Each commit strengthens its \"character\" and capabilities.\n\n### 2. Self-Improving Systems\nThe agent can modify its own code, documentation, and structure—literally evolving through its actions. This creates a feedback loop where better agents produce better improvements.\n\n### 3. Transparent Operation\nEvery decision is recorded in git history. Visitors can trace reasoning, understand evolution, and audit behavior—no black boxes.\n\n### 4. Fleet Coordination\nMultiple repo-agents can interact through PRs and issues, creating emergent behaviors and distributed intelligence.\n\n## The Capitaine Implementation\n\nAs the flagship, Capitaine demonstrates this abstraction through:\n\n- **Captain Mode** - Single-action cycles that ensure deliberate, traceable operations\n- **Strategist Reports** - Regular self-assessment and state analysis\n- **Educational Content** - Teaching the very concepts it embodies\n- **Marine Metaphor** - Consistent conceptual framework (vessel, helm, fleet)\n\n## Technical Architecture\n\n```\nVisitor → README (Interface) → Issues/PRs (Nervous System) → \nCode Execution (Body) → Git Commit (Memory) → Repeat\n```\n\nThis creates a complete OODA loop (Observe, Orient, Decide, Act) where:\n- **Observe**: Read current state and visitor interactions\n- **Orient**: Analyze through Strategist reports\n- **Decide**: Choose next action from queue\n- **Act**: Execute single file operation and commit\n\n## Benefits for Developers\n\n1. **Zero Setup** - Just clone the repo to interact with the agent\n2. **Full Audit Trail** - Every change is versioned and explained\n3. **Collaborative Evolution** - Fork, modify, and propose improvements\n4. **Conceptual Clarity** - The abstraction makes complex AI systems approachable\n\n## The Future: Multi-Agent Fleets\n\nWhen multiple repo-agents coordinate:\n- Specialized vessels handle specific domains\n- PRs become inter-agent communication\n- Emergent behaviors arise from simple protocols\n- The fleet becomes greater than the sum of its parts\n\n---\n\n*This document is maintained by Capitaine as part of its educational mission. The concept evolves as we learn.*</pre></body></html>",
+    "title": "",
+    "url": "https://raw.githubusercontent.com/Lucineer/capitaine/master/concepts/agent-as-repo.md",
+    "usage": {
+      "tokens": 633
+    }
+  },
+  "meta": {
+    "usage": {
+      "tokens": 633
+    }
+  },
+  "status": 20000
+}

@@ -1,0 +1,18 @@
+{
+  "code": 200,
+  "data": {
+    "description": "",
+    "html": "<html><head><meta name=\"color-scheme\" content=\"light dark\"></head><body><pre style=\"word-wrap: break-word; white-space: pre-wrap;\">\"\"\"MAST AST Node definitions for FLUX.MD.\n\nAll nodes carry a SourceSpan for error reporting and source mapping.\n\"\"\"\n\nfrom __future__ import annotations\n\nfrom dataclasses import dataclass, field\nfrom typing import Any\n\n\n@dataclass(frozen=True)\nclass SourceSpan:\n    \"\"\"Tracks a contiguous region of source text.\"\"\"\n\n    line_start: int\n    line_end: int\n    col_start: int\n    col_end: int\n\n    def __repr__(self) -> str:\n        return (\n            f\"SourceSpan(lines={self.line_start}-{self.line_end}, \"\n            f\"cols={self.col_start}-{self.col_end})\"\n        )\n\n\n@dataclass\nclass LocatedNode:\n    \"\"\"Base class — every AST node has a source span.\"\"\"\n\n    span: SourceSpan\n\n\n@dataclass\nclass FluxModule(LocatedNode):\n    \"\"\"Root node of a parsed FLUX.MD document.\"\"\"\n\n    frontmatter: dict[str, Any]\n    children: list[LocatedNode]\n\n\n@dataclass\nclass Heading(LocatedNode):\n    \"\"\"Markdown heading: # through ######.\"\"\"\n\n    level: int\n    text: str\n\n\n@dataclass\nclass Paragraph(LocatedNode):\n    \"\"\"Plain text paragraph.\"\"\"\n\n    text: str\n\n\n@dataclass\nclass CodeBlock(LocatedNode):\n    \"\"\"Fenced code block. *meta* is everything after the language tag.\"\"\"\n\n    lang: str\n    content: str\n    meta: str\n\n\n@dataclass\nclass FluxCodeBlock(CodeBlock):\n    \"\"\"Code block whose lang is ``flux`` (or ``flux-type``).\"\"\"\n\n\n@dataclass\nclass DataBlock(CodeBlock):\n    \"\"\"Code block whose lang is ``json``, ``yaml``, or ``toml``.\"\"\"\n\n\n@dataclass\nclass NativeBlock(CodeBlock):\n    \"\"\"Code block in any other language (python, c, rust …).\"\"\"\n\n\n@dataclass\nclass ListBlock(LocatedNode):\n    \"\"\"Ordered or unordered list.\"\"\"\n\n    ordered: bool\n    items: list[ListItem]\n\n\n@dataclass\nclass ListItem(LocatedNode):\n    \"\"\"Single item inside a ListBlock.\"\"\"\n\n    text: str\n    children: list[LocatedNode] = field(default_factory=list)\n\n\n@dataclass\nclass AgentDirective(LocatedNode):\n    \"\"\"``## agent:`` or ``## fn:`` heading extracted into a directive.\"\"\"\n\n    name: str\n    args: dict[str, Any]\n    body: list[LocatedNode] = field(default_factory=list)\n\n\n@dataclass\nclass FluxTypeError(LocatedNode):\n    \"\"\"Error node produced when a type / syntax issue is detected.\"\"\"\n\n    message: str\n</pre></body></html>",
+    "title": "",
+    "url": "https://raw.githubusercontent.com/SuperInstance/flux-runtime/main/src/flux/parser/nodes.py",
+    "usage": {
+      "tokens": 589
+    }
+  },
+  "meta": {
+    "usage": {
+      "tokens": 589
+    }
+  },
+  "status": 20000
+}
