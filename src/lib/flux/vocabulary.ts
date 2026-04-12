@@ -43,7 +43,7 @@ export function matchVocabulary(text: string, entries: VocabEntry[]): Vocabulary
         const name = part.slice(1);
         paramNames.push(name);
         // Match numbers (possibly negative) and words
-        regexParts.push(`(?P<${name}>-?\\d+|[\\w.,\\-\\s]+)`);
+        regexParts.push(`(?<${name}>-?\\d+|[\\w.,\\-\\s]+)`);
       } else {
         regexParts.push(part.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
       }
@@ -56,7 +56,7 @@ export function matchVocabulary(text: string, entries: VocabEntry[]): Vocabulary
       if (match) {
         const captures: Record<string, string> = {};
         for (const name of paramNames) {
-          const groups = match as unknown as Record<string, string>;
+          const groups = (match as unknown as { groups: Record<string, string> }).groups;
           if (groups[name]) captures[name] = groups[name].trim();
         }
         const expandedAssembly = expandAssembly(entry.assembly, captures);
